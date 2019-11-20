@@ -11,4 +11,4 @@ while True:
 	data = "Current time " + str(datetime.now())
 	s.sendto(bytes(data, "UTF-8"), ('<broadcast>', BROADCAST_TO_PORT))
 	print(data)
-	time.sleep(1
+	time.sleep(1)
