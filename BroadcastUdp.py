@@ -2,8 +2,7 @@ BROADCAST_TO_PORT = 7000
 import time
 from socket import *
 from datetime import datetime
-from sense_hat import SenseHat
-sense = SenseHat()
+
 
 s = socket(AF_INET, SOCK_DGRAM)
 #s.bind(('', 14593))     # (ip, port)
@@ -15,7 +14,3 @@ while True:
 	print(data)
 	time.sleep(1)
 	
-	 t = sense.get_temperature()
-	 t = round(t, 1)
-	 message = "Temperature: " + str(t)
-	 sense.show_message(message, scroll_speed=0.05)
