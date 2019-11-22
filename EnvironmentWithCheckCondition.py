@@ -21,7 +21,7 @@ while True:
   # str() converts the value to a string so it can be concatenated
   message = "Temperature: " + str(t) + " Pressure: " + str(p) + " Humidity: " + str(h)
   
-  if t > 18.3 and t < 26.7:
+  if t > 26.5 and t < 30.5:
     bg = green
   else:
     bg = red
