@@ -39,4 +39,4 @@ while True:
   
   # Display the scrolling message
   # sense.show_message(message, scroll_speed=0.05)
-  time.sleep(1)
+  time.sleep(5)
