@@ -5,7 +5,7 @@ SensorName="Raspberry-pi"
 from datetime import datetime
 from sense_hat import SenseHat
 sense = SenseHat()
-BROADCAST_TO_PORT = 7050
+BROADCAST_TO_PORT = 7000
 import time
 from socket import *
 from datetime import datetime
