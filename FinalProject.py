@@ -30,8 +30,8 @@ while True:
   
   # Create the message
   # str() converts the value to a string so it can be concatenated
-  message = "Sensor Name:" +str(SensorName) +","+ "Location :" + str(Location)+","+ "Date Time: "+ str(datetime.now()) +"," +"Temperature: " + str(t) +","+ " Pressure: " + str(p)+"," + " Humidity: " + str(h) 
-  # message = str(SensorName) +","+ str(Location)+","+ str(datetime.now()) +","+ str(t) +","+ str(p)+"," + str(h) 
+ # message = "Sensor Name:" +str(SensorName) +","+ "Location :" + str(Location)+","+ "Date Time: "+ str(datetime.now()) +"," +"Temperature: " + str(t) +","+ " Pressure: " + str(p)+"," + " Humidity: " + str(h) 
+   message = str(SensorName) +","+ str(Location)+","+ str(datetime.now()) +","+ str(t) +","+ str(p)+"," + str(h) 
 
   #Displaying the message in console command prompt
   print(message)
